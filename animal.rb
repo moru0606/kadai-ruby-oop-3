@@ -5,7 +5,7 @@ class Animal
         @age = age 
      end
     def say
-       p "私は#{@name}です。#{@age}歳です。"
+       puts "私は#{@name}です。#{@age}歳です。"
     end 
 end
 # tanaka = Animal.new("田中太郎",25,)
